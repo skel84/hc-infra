@@ -13,4 +13,5 @@ spec:
         kind: HelmRepository
         name: bitnami-oci
   interval: 1m0s
+  targetNamespace: kube-system
   # values:
