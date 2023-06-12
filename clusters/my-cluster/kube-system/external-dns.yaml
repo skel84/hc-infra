@@ -16,3 +16,6 @@ spec:
   targetNamespace: kube-system
   values:
     fullnameOverride: external-dns
+    provider: hetzner
+    hetzner:
+      secretName: hetzner
