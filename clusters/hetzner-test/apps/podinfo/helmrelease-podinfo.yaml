@@ -25,12 +25,13 @@ spec:
       requests:
         cpu: 100m
         memory: 64Mi
-    hosts:
-      - host: test.rbl.wtf
-        paths:
-          - path: /
-            pathType: ImplementationSpecific
-    tls:
-      - secretName: letsencrypt-podinfo-test
-        hosts:
-          - test.rbl.wtf
+    ingress:
+      hosts:
+        - host: test.rbl.wtf
+          paths:
+            - path: /
+              pathType: ImplementationSpecific
+      tls:
+        - secretName: letsencrypt-podinfo-test
+          hosts:
+            - test.rbl.wtf
