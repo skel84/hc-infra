@@ -26,6 +26,7 @@ spec:
         cpu: 100m
         memory: 64Mi
     ingress:
+      enabled: true
       hosts:
         - host: test2.rbl.wtf
           paths:
