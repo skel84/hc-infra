@@ -27,6 +27,7 @@ spec:
         memory: 64Mi
     ingress:
       enabled: true
+      className: nginx
       hosts:
         - host: test2.rbl.wtf
           paths:
