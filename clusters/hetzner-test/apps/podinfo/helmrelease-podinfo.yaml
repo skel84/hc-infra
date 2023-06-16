@@ -26,11 +26,11 @@ spec:
         cpu: 100m
         memory: 64Mi
       hosts:
-        - host: podinfo.rbl.wtf
+        - host: test.rbl.wtf
           paths:
             - path: /
               pathType: ImplementationSpecific
       tls:
         - secretName: letsencrypt-podinfo
           hosts:
-            - podinfo.rbl.wtf
+            - test.rbl.wtf
