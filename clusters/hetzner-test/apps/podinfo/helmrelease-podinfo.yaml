@@ -27,11 +27,11 @@ spec:
         memory: 64Mi
     ingress:
       hosts:
-        - host: test.rbl.wtf
+        - host: test2.rbl.wtf
           paths:
             - path: /
               pathType: ImplementationSpecific
       tls:
         - secretName: letsencrypt-podinfo-test
           hosts:
-            - test.rbl.wtf
+            - test2.rbl.wtf
