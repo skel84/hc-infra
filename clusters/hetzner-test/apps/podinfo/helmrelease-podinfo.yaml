@@ -31,6 +31,6 @@ spec:
             - path: /
               pathType: ImplementationSpecific
       tls:
-        - secretName: letsencrypt-podinfo
+        - secretName: letsencrypt-podinfo-test
           hosts:
             - test.rbl.wtf
