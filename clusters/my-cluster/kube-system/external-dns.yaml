@@ -16,7 +16,7 @@ spec:
   targetNamespace: kube-system
   values:
     fullnameOverride: external-dns
-    provider: hetzner
-    hetzner:
-      secretName: hetzner
+    # provider: hetzner
+    # hetzner:
+    #   secretName: hetzner
 #vakamai,alibabacloud,aws,aws-sd,azure,azure-dns,azure-private-dns,bluecat,civo,cloudflare,coredns,designate,digitalocean,dnsimple,dyn,exoscale,gandi,godaddy,google,ibmcloud,infoblox,inmemory,linode,ns1,oci,ovh,pdns,pihole,plural,rcodezero,rdns,rfc2136,safedns,scaleway,skydns,tencentcloud,transip,ultradns,vinyldns,vultr, got '
